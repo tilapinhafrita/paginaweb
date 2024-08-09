@@ -1,0 +1,57 @@
+body{
+  color: red;
+  background: black;
+  margin: 20px;
+}
+
+header{
+  font-size: 75px;
+  color: red;
+  border-bottom: solid 2px red;
+  margin: 20px;
+  padding: 10px;
+  display: relative;
+font-family: "Fontdiner Swanky", serif;
+}
+
+.inicio{
+  background: black;
+  font-size: 20px;
+  margin: 20px;
+  display: flex;
+}
+
+.entrada{
+  margin-right: 50px;
+}
+.descricao{
+  font: size 30px;
+  text-align: justify;
+}
+
+img{
+  height: 200px;
+}
+
+.clipes{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.outros{
+  font-family: "Fontdiner Swanky", serif;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.outros img{
+  opacity: 0.5;
+}
+
+.outros img:hover{
+  opacity: 1.0;
+  border: solid 3px black;
+  border-raius: 0.5;
+}
